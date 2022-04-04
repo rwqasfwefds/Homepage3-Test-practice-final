@@ -1,0 +1,155 @@
+* { 
+    margin: 0; padding: 0;
+    font-family: '맑은 고딕', 'Malgun Gothic', Gothic, sans-serif;
+}
+a { text-decoration: none; }
+li { list-style: none; }
+
+body {
+    width: 1200px; margin: 0 auto;
+    background: white;
+}
+
+#page-wrapper {
+    background-color: white;
+    margin: 0 0; padding: 10px 20px;
+}
+table {
+    border-collapse: collapse;
+    margin:0px auto;
+}
+th, tr, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+#main-header { 
+    padding: 40px 50px;
+    background-color: white;
+    position: fixed;
+    width: 1000px;
+    top: 0;
+ }
+.master-title {
+    font-size: 30px; 
+    color: #181818;
+    text-align: center;
+}
+#main {
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    height: 40px;
+    position: fixed;
+    top: 120px;
+    background-color: white;
+    width: 980px;
+}
+.pull-left{
+    float: left;
+}
+.outer-menu-item {
+    float: left;
+    position: relative;
+}
+.outer-menu-item:hover {
+    background: black;
+    color: white
+}
+
+.menu-title {
+    display: block;
+    height: 30px; 
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 60px;
+    width: 130px;
+}
+.inner-menu {
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+    z-index: 1000;
+    text-align: center
+}
+
+.inner-menu-item > a {
+    display: block;
+    padding: 5px 10px;
+    color: black
+}
+
+.inner-menu-item > a:hover {
+    background: black;
+    color: white;
+}
+/* 검색 창 */
+.pull-right { 
+    float:right;
+}
+.search-bar {
+    height: 26px;
+    padding: 7px;
+}
+.input-search {
+    display: block;
+    float: left;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 15px 0 0 15px;
+    width: 120px; height: 24px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    color: #555555;
+}
+.input-search-submit {
+    float: left;
+    width: 50px; height: 26px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #CCCCCC;
+}
+#content { overflow: hidden; }
+#main-section {
+    float: left;
+    width: 940px;
+}
+#main-aside {
+    float: right;
+    width: 100px;
+    position: fixed;
+    transform: translateX(1000px);
+}
+article { 
+    padding: 0 10px 20px 10px;
+}
+
+.aside-list { 
+    padding: 10px 0 30px 0;
+ }
+.aside-list li a {
+    margin-left: 8px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+#container2 > ul{
+    display: flex;
+    justify-content: center;
+}
+img{
+    float: left;
+}
+/* 현재 시각 */
+#clock{
+    width: 175px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+#container{
+    width: 1000px;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+}
+#content{
+    margin-top: 160px;
+}

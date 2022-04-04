@@ -1,0 +1,47 @@
+#container{
+    width: 1000px;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+}
+#content{
+    margin-top: 160px;
+}
+#content { overflow: hidden; }
+#main-section {
+    float: left;
+    width: 940px;
+}
+#main-aside {
+    float: right;
+    width: 100px;
+    position: fixed;
+    transform: translateX(1000px);
+}
+
+article { 
+    padding: 0 10px 20px 10px;
+}
+
+.aside-list { 
+    padding: 10px 0 30px 0;
+ }
+.aside-list li a {
+    margin-left: 8px;
+    font-size: 13px;
+    color: #6C6C6C;
+}
+#container2 > ul{
+    display: flex;
+    justify-content: center;
+}
+img{
+    float: left;
+}
+/* 현재 시각 */
+#clock{
+    width: 175px;
+    margin: 0 auto;
+    font-weight: bold;
+}
